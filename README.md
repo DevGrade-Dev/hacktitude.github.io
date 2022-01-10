@@ -21,7 +21,7 @@ Git repository URL and credentials will be emailed to you at the start of the co
 
 * git clone `repository-url`
 
-### install dependencies
+### Installing dependencies
 
 Once you clone the project from your team's Git repository, run the following command to install dependencies.
 
@@ -42,7 +42,7 @@ Following commands will create a SQlite database called `main.sqlite` in your ro
 * `npm run migrate` to create the database and establish DB schema.
 * `npm run seed` to populate some data to the tables.
 
-### Building and Running the Application
+### Building and running the application
 
 * `npm start` to start the server (without nodemon)
 
@@ -69,7 +69,7 @@ As you complete the challenges, respective tests will pass one by one. When you 
 
 NOTE: Tests are not using the main.sqlite database. Every test creates an an isolated in-memory database.
 
-### Improving your Developer Environment (Optional)
+### Improving your developer Experience (Optional)
 
 This step is not mandatory to work on the Hacktitude challenges, but it may improve your development experience.  
 
@@ -98,7 +98,7 @@ However in case of a need, you may contact the organizers via WhatsApp chat (No 
 
 ## References
 
-* [Hacktitude official website](https://www.hacktitude.io)
-* [Hacktitude FAQ](https://www.hacktitude.io/faq)
-* [99x website](https://99x.io)
-* [DevGrade website](https://devgrade.io/)
+* [Hacktitude official website](https://www.hacktitude.io){:target="_blank"}
+* [Hacktitude FAQ](https://www.hacktitude.io/faq){:target="_blank"}
+* [99x website](https://99x.io){:target="_blank"}
+* [DevGrade website](https://devgrade.io/){:target="_blank"}
