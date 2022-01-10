@@ -17,7 +17,9 @@ Installations of latest stable versions of Git, Node.js and npm are required on 
 
 ### Clone the project to your local computer
 
-Git repository URL and credentials will be emailed to you at the start of the contest. Please use those details to Git clone the project into your local development environment.
+Git repository URL and credentials will be emailed to you at the start of the contest. Use Git to clone the project to your local development environment.
+
+* git clone `repository-url`
 
 ### install dependencies
 
@@ -59,7 +61,7 @@ The system you are about to develop is a online, on-demand learning management s
 Use below commands to run the tests. When you FIRST run, all the tests except `_sanity.test` will fail. This is expected.
 
 * To run all test: `npm test`
-* To run a single test file of a challenge: e.g. 
+* To run a single test file of a challenge: e.g.
   * `npm test challenge-0`
   * `npm test challenge-1`
 
@@ -83,6 +85,10 @@ If your sanity test pass and you are able to run the application, now you can pr
 * [Challenge 1](./challenge-1.md)
 * [Challenge 2](./challenge-2.md)
 * ...
+
+Once you solve a particular challenge (or a part of the challenge), Git push the code to your upstream repository. You can collaborate as a team on the upstream repository by using it as your trunk.
+
+Every time you push the code to the upstream, automatic test cases are triggered to calculate your team's score. Therefore please ensure you only push stable code.
 
 ## Getting support
 
