@@ -1,3 +1,3 @@
-# Challenge 1
+# Challenge 2
 
-Not required for Hacktitude test-run. This will be available on the Hacktitude contest day (22nd Jan).
+You are not required to complete this for the test-run. This challenge will be available on the Hacktitude contest day (22nd Jan).
