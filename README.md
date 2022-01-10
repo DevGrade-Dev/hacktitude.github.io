@@ -1,6 +1,6 @@
 # Welcome to `Hacktitude.io`
 
->>DISCLAIMER: Please note that this project is created only for the purpose of Hacktitude.io and do NOT represent best practices of software development. The project contains purposefully placed errors, bad design practices, bad code quality and security malpractices.
+>>DISCLAIMER: Please note that this project is created only for the purpose of Hacktitude.io and does NOT represent best practices of software development. The project contains purposefully placed errors, bad design practices, bad code quality and security malpractices.
 
 1. [Setting up your environment](#setting-up-your-environment)
 1. [Solving the challenges](#solving-the-challenges)
