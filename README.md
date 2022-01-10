@@ -8,6 +8,16 @@ This page is to help your team to understand the pre-requisits required in order
 
 ### Solving the challenges
 
+#### Challenge 0
+
+#### Challenge 1
+
+#### Challenge 2
+
+#### Challenge 3
+
+#### Challenge 4
+
 ### How to get support
 
 ### References
