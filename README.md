@@ -19,13 +19,13 @@ Installations of latest stable versions of `Git`, `Node.js` and `npm` are requir
 
 Git repository URL and credentials will be emailed to you at the start of the contest. Use Git to clone the project to your local development environment.
 
-* git clone `repository-url`
+* git clone `<repository-url>`
 
 ### Installing dependencies
 
 Once you clone the project from your team's Git repository, run the following command to install dependencies.
 
-* `npm install` to install the dependencies
+* `npm install`
 
 ### Validate if the environment is correctly setup
 
@@ -39,12 +39,16 @@ If you have the environment correctly set up, all the tests should pass in the s
 
 Following commands will create a SQlite database called `main.sqlite` in your root folder for development purposes. The `migrate` command will create the DB schema, and `seed` command populates the DB with some initial data. This is required for running the application.
 
-* `npm run migrate` to create the database and establish DB schema.
-* `npm run seed` to populate some data to the tables.
+* to create the database and establish DB schema:
+  * `npm run migrate`
+* to populate some data to the tables:
+  * `npm run seed`
 
 ### Building and running the application
 
-* `npm start` to start the server (without nodemon)
+To start the server (without nodemon) use the following command:
+
+* `npm start` 
 
 Now the application should run at [http://localhost:3000](http://localhost:3000)
 
@@ -60,7 +64,8 @@ The system you are about to develop is a online, on-demand learning management s
 
 Use below commands to run the tests. When you FIRST run, all the tests except `_sanity.test` will fail. This is expected.
 
-* To run all test: `npm test`
+* To run all test:
+  * `npm test`
 * To run a single test file of a challenge: e.g.
   * `npm test challenge-0`
   * `npm test challenge-1`
