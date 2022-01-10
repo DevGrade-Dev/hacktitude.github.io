@@ -92,4 +92,13 @@ Every time you push the code to the upstream, automatic test cases are triggered
 
 ## Getting support
 
+There will be minimal to no support available on the context day. You are encouraged to resolve all your development environment related issues by participating the test run on 15th January 2021.
+
+However in case of a need, you may contact the organizers via WhatsApp chat (No support for calls) using the phone number `phone-number`. If we answer a question, we may share your question (anonymously) and our answer, with all contestants via the common WhatsApp chat group you will be added to.
+
 ## References
+
+* [Hacktitude official website](https://www.hacktitude.io)
+* [Hacktitude FAQ](https://www.hacktitude.io/faq)
+* [99x website](https://99x.io)
+* [DevGrade website](https://devgrade.io/)
