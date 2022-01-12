@@ -74,6 +74,14 @@ As you complete the challenges, respective tests will pass one by one. When you 
 
 NOTE: Tests are not using the main.sqlite database. Every test creates an an isolated in-memory database.
 
+### Add .gitignore
+
+You will note that the project code has no `.gitignore` file. Please add a `.gitignore` file with following content.
+
+* `node_modules`
+* `main.sqlite`
+* `package-lock.json`
+
 ### Improving your developer Experience (Optional)
 
 This step is not mandatory to work on the Hacktitude challenges, but it may improve your development experience.  
