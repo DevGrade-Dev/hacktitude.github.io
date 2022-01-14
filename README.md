@@ -56,9 +56,15 @@ Now the application should run at [http://localhost:3000](http://localhost:3000)
 
 The system you are about to develop is a online, on-demand learning management system (similar to Coursera, Udemy, etc.). The functionality already available are straight forward once you login to the system.
 
+You can use following credentials to login using an already existing user in seed data. Navigate the application using the main menu.
+
+* Username: `abby@hacktitude.io`
+* Password: `test`
+
+Alternatively you may create an user by yourself.
+
 * Visit 'Sign Up' and Register a new user
 * Login with the new credentials of the user you just created
-* Navigate the application using the main menu
 
 ### Executing the Tests
 
