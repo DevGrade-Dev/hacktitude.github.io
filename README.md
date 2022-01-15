@@ -115,7 +115,7 @@ Every time you push the code to the upstream, automatic test cases are triggered
 
 There will be minimal to no support available on the context day. You are encouraged to resolve all your development environment related issues by participating the test run on 15th January 2021.
 
-However in case of a need, you may contact the organizers via WhatsApp chat (No support for calls) using the phone number `phone-number`. If we answer a question, we may share your question (anonymously) and our answer, with all contestants via the common WhatsApp chat group you will be added to.
+However in case of a need, you may contact the organizers via WhatsApp chat (No support for calls) using the phone number `0777046852`. If we answer a question, we may share your question (anonymously) and our answer, with all contestants via the common WhatsApp chat group you will be added to.
 
 ## References
 
