@@ -103,8 +103,8 @@ This step is not mandatory to work on the Hacktitude challenges, but it may impr
 If your sanity test pass and you are able to run the application, now you can proceed to the challenges. All the Hacktitude challenges are documented in an own file. Please visit the links below, read carefully and get started solving them. Have fun!
 
 * [Challenge 0](./challenge-0.md)
-* [Challenge 1](./challenge-1.md)
-* [Challenge 2](./challenge-2.md)
+* Challenge 1 (not required for test run)
+* Challenge 2 (not required for test run)
 * ...
 
 Once you solve a particular challenge (or a part of the challenge), Git push the code to your upstream repository. You can collaborate as a team on the upstream repository by using it as your trunk.
