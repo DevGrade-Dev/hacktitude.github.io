@@ -17,7 +17,9 @@ Installations of latest stable versions of `Git`, `Node.js` and `npm` are requir
 
 ### Clone the project to your local computer
 
-Git repository URL and credentials will be emailed to you at the start of the contest. Use Git to clone the project to your local development environment.
+Git repository URL and credentials will be available at the start of the contest through a link. This link will be emailed you to.
+
+Use Git to clone the project to the local development environment using your credentials. Please note that individual team members will have own git credentials, but the repository will be common for a team.
 
 * git clone `<repository-url>`
 
