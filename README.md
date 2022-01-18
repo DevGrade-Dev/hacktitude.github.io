@@ -107,7 +107,7 @@ If your sanity test pass and you are able to run the application, now you can pr
 * Challenge 2 (not required for test run)
 * ...
 
-Once you solve a particular challenge (or a part of the challenge), Git push the code to your upstream repository. You can collaborate as a team on the upstream repository by using it as your trunk.
+Once you solve a particular challenge (or a part of the challenge), Git push the code to remote 'master' branch in the repository. You can collaborate as a team on the upstream repository by using it as your trunk.
 
 Every time you push the code to the upstream, automatic test cases are triggered to calculate your team's score. Therefore please ensure you only push stable code.
 
