@@ -56,7 +56,7 @@ Now the application should run at [http://localhost:3000](http://localhost:3000)
 
 ### How to navigate in the application
 
-The system you are about to develop is a online, on-demand learning management system (similar to Coursera, Udemy, etc.). The functionality already available are straight forward once you login to the system.
+The system you are about to develop is an online, on-demand learning management system (similar to Coursera, Udemy, etc.). The functionality already available are straight forward once you login to the system.
 
 You can use following credentials to login using an already existing user in seed data. Navigate the application using the main menu.
 
@@ -114,7 +114,7 @@ If your sanity test pass and you are able to run the application, now you can pr
 * [Challenge 17](./challenge-17.md)
 * [Challenge 18](./challenge-18.md)
 
-Once you solve a particular challenge (or a part of the challenge), Git push the code to your upstream repository. You can collaborate as a team on the upstream repository by using it as your trunk.
+Once you solve a particular challenge (or a part of the challenge), Git push the code to remote `master` branch in the repository. You can collaborate as a team on the upstream repository by using it as your trunk.
 
 Every time you push the code to the upstream, automatic test cases are triggered to calculate your team's score. Therefore please ensure you only push stable code.
 
