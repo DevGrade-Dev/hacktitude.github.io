@@ -4,8 +4,8 @@
 
 Your task is to create a publicly accessible REST API to get the courses which are available in the system.
 
-REST Endpoint - `http://<server-ip>:<port>/course/getHacktitudeCourses`
-HTTP Method   -  `GET`
+* REST Endpoint - `http://<server-ip>:<port>/course/getHacktitudeCourses`
+* HTTP Method   -  `GET`
 
 For example, when the server is up in local machine, `http://localhost:3000/course/getHacktitudeCourses` URL should return the results in the following format.
 
