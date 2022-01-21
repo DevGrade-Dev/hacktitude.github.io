@@ -82,6 +82,15 @@ As you complete the challenges, respective tests will pass one by one. When you 
 
 NOTE: Tests are not using the main.sqlite database. Every test creates an an isolated in-memory database.
 
+### Legitimacy of your solution
+
+Apart from the automated tests exposed to you, we will run additional tests on all awarding teams (the top 10) to verify that the team has not attempted to compromise the integrity of the automated tests. We will also conduct a manual developer review of the awarding teams' submissions. 
+
+Any attempt to compromise the integrity of the contest will disqualify your team. Therefore please ensure your team avoid attempting:
+
+* Tampering files in the `test` folder or `config` folder
+* Hard coding values or logic to pass the test without solving the challenge legitimately
+
 ### Improving your developer Experience (Optional)
 
 This step is not mandatory to work on the Hacktitude challenges, but it may improve your development experience.  
@@ -118,7 +127,7 @@ Once you solve a particular challenge (or a part of the challenge), Git push the
 
 Every time you push the code to the upstream, automatic test cases are triggered to calculate your team's score. Therefore please ensure you only push stable code.
 
-Do not change any file in the `config` folder of your code. These configurations are used to correctly build your code on our servers.
+Do not change any file in the `config` or `tests` folder of your code. These are used to correctly build your code on our servers.
 
 ## Getting support
 
