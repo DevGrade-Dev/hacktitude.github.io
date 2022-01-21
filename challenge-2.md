@@ -16,7 +16,7 @@ This user grade tag should be displayed inside the span element with id `user-gr
 
 The available grades are `Novice, Beginner, Expert` in the order of lowest to the highest grade.
 
-The criteria (algorithms) of grading are described under below sub tasks. If an user qualify for more than one grade, user should be awarded the highest applicable grade.
+The criteria (algorithms) of grading are described under below sub tasks. **If an user qualify for more than one grade, user should be awarded the highest applicable grade.**
 
 ## Challenge 2.a [3 Points]
 
@@ -38,8 +38,8 @@ Implement the necessary logic to award `Expert` grade based on the following cri
 
 ## IMPORTANT HINTS
 
-`score` column value in the `userCourses` table has following meanings:
+Column values in the `userCourses` table has following meanings:
 
-* Association  exists
-* `score = -1` - this means the user has not completes this course
-* `score > 0` - user 
+* An association record exists in the `userCourses` table means the user is enrolled to this course.
+* Column value `score = -1` - this means the user has enrolled but not completed this course. Score not valid and should not be taken for any calculations.
+* Column value `score > 0` - user has completed the course and the score is valid.
