@@ -17,7 +17,7 @@ Installations of latest stable versions of `Git`, `Node.js` and `npm` are requir
 
 ### Clone the project to your local computer
 
-Git repository URL and credentials will be available at the start of the contest through a link. This link will be emailed you to.
+Git repository URL and credentials will be available at the start of the contest through a link. This link will be emailed to you.
 
 Use Git to clone the project to the local development environment using your credentials. Please note that individual team members will have own git credentials, but the repository will be common for a team.
 
@@ -39,11 +39,11 @@ If you have the environment correctly set up, all the tests should pass in the s
 
 ### Setting up the development database
 
-Following commands will create a SQlite database called `main.sqlite` in your root folder for development purposes. The `migrate` command will create the DB schema, and `seed` command populates the DB with some initial data. This is required for running the application.
+Following commands will create a SQLite database called `main.sqlite` in your root folder for development purposes. The `migrate` command deletes the existing database and creates a new one with the DB schema, whereas `seed` command populates the DB with some initial data. These steps are required for running the application.
 
-* to create the database and establish DB schema:
+* to recreate the database
   * `npm run migrate`
-* to populate some data to the tables:
+* to populate some data
   * `npm run seed`
 
 ### Building and running the application
@@ -56,11 +56,11 @@ Now the application should run at [http://localhost:3000](http://localhost:3000)
 
 ### How to navigate in the application
 
-The system you are about to develop is an online, on-demand learning management system (similar to Coursera, Udemy, etc.). The functionality already available are straight forward once you login to the system.
+The system you are about to develop is an online, on-demand learning management system (similar to Coursera, Udemy, etc.). The functionality already available are straight forward to understand once you login to the system.
 
-You can use following credentials to login using an already existing user in seed data. Navigate the application using the main menu.
+You can use the following credentials to login as an already existing user in seed data. Navigate the application using the main menu.
 
-* Username: `abby@hacktitude.io`
+* Username: `abby@hacktitude.io` or `mary@hacktitude.io`
 * Password: `test`
 
 Alternatively you may create an user by yourself.
@@ -84,9 +84,9 @@ As you complete the challenges, respective tests will pass one by one. When you 
 
 ### Legitimacy of your solution
 
-Apart from the automated tests exposed to you, we will run additional tests on all awarding teams (the top 10) to verify that the team has not attempted to compromise the integrity of the automated tests. We will also conduct a manual developer review of the awarding teams' submissions.
+Apart from the automated tests exposed to you, we will run additional tests on all awarding teams (the top 10) to verify that the team has not attempted to compromise the integrity of the tests. We will also conduct a manual developer review of the awarding teams' submissions.
 
-Any attempt to compromise the integrity of the contest will disqualify your team. Therefore please ensure your team avoid attempting:
+Any attempt to compromise the integrity of the contest will `unconditionally disqualify` your team. Therefore please ensure you avoid attempting:
 
 * Tampering files in the `test` folder or `config` folder
 * Hard coding values or logic to pass the test without solving the challenge legitimately
@@ -123,17 +123,17 @@ If your sanity test pass and you are able to run the application, now you can pr
 * [Challenge 17](./challenge-17.md)
 * [Challenge 18](./challenge-18.md)
 
->Once you solve a particular challenge (or a part of the challenge), Git push the code to remote `master` branch in the repository. You can collaborate as a team on the upstream repository by using it as your trunk.
+>Once you solve a particular challenge (or a part of the challenge), `git push` the code to remote `master` branch in the repository. You can collaborate as a team on the upstream repository by using it as your trunk.
 
 >Every time you push the code to the upstream, automatic test cases are triggered to calculate your team's score. Therefore please ensure you only push stable code.
+
+>If scores are a tie, teams will be ordered by the `last push time`. Earlier you finish pushing code, better your rank will be. **Therefore please ensure NOT to push unnecessarily after you have completed the challenges.**
 
 >Each test had a timeout of 30 secs. You need to ensure any of your implementations does not perform badly causing your tests to timeout. Test timeout due to bad performing code will be considered as a legitimate test failure.
 
 ## Getting support
 
-There will be minimal to no support available on the context day. You are encouraged to resolve all your development environment related issues by participating the test run on 15th January 2021.
-
-However in case of a need, you may contact the organizers via WhatsApp chat (No support for calls) using the phone number `0777046852`. If we answer a question, we may share your question (anonymously) and our answer, with all contestants via the common WhatsApp chat group you will be added to.
+There will be minimal to no support available on the context day. We are not in a position to clarify challenge descriptions on individual basis. However in case of a administrative need, you may contact the organizers via WhatsApp chat (No support for calls) to the phone number `0777046852`. If we answer a question, we may share your question (anonymously) and our answer, with all contestants via the common WhatsApp chat group you will be added to.
 
 ## References
 
