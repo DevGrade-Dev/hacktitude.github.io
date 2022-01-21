@@ -2,7 +2,7 @@
 
 # Challenge 0
 
-## Challenge 0.a
+## Challenge 0.a [1 Point]
 
 In the current application, you may have noticed that at incorrect `login` attempts,  the system exposes too much information. For example, current the system displays below messages on following 2 scenarios.
 
@@ -15,7 +15,7 @@ This is a bad security practice, as hackers will be able to verify if an user ac
 
 Once this task is complete, two tests in `challenge-0.test` should succeed. You can verify that by running the the command `npm test challenge-0`.
 
-## Challenge 0.b
+## Challenge 0.b [1 Point]
 
 When an user login to the system, you may notice that `Recently Added` courses are shown on the right side of the `home` page. Currently there are 5 courses shown. as shown below:
 
@@ -25,7 +25,7 @@ However having 5 courses on 2 columns does not look good visually. Your task is 
 
 Once this task is complete, one test in `challenge-0.test` should succeed. You can verify that by running the the command `npm test challenge-0.test.js`.
 
-## Challenge 0.c
+## Challenge 0.c [1 Point]
 
 In course details view you should show the learning duration of the course.
 
@@ -34,7 +34,7 @@ In course details view you should show the learning duration of the course.
 To implement this, you will have to add a new column named `duration` to the `courses` database table. This column should be able to store a `string` value; for example `20 hours`, `3 weeks`, etc.
 
 * Since the database is auto generated, you will need to change the migration file `db/migratons/20211229064226_db_migrations.js` to add `duration` column to `courses` table. Now run following command to recreate the development database: 
-  * `npm run migrate`.
+  * `npm run migrate`
 
 >> (optional) A more accurate way to handle migrations is to create a new knex migration file, and do the schema change (column addition) within that new migration file.
 

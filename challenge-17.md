@@ -4,7 +4,7 @@
 
 Currently through the `db seed` files you can see that every user has their preferred currency in `country_currency` column of the `users` table. When a new user is signed up, the default currency of `LKR` is set for the user.
 
-You may also note that, in every `course` record in teh database has a `price` column. The price value stored in the database is in USD.
+You may also note that, in the database every `course` record has a `price` column. The price value stored in the database is in USD.
 
 ## Challenge 17.a [6 Points]
 
