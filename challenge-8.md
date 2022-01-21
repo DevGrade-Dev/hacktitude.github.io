@@ -16,7 +16,7 @@ You may also notice that there is a form with id `course-review-form` within the
 | ----------- | ----------- |
 | <img src="./images/8a1.png" width="200">      | <img src="./images/8a2.png" width="200">       |
 
-## Challenge 8.b [1 Point]
+## Challenge 8.b [5 Point]
 
 The div `comments-container` should display all the reviews given by users. Each review should display reviewer's name and the review text.
 
@@ -28,7 +28,7 @@ For now you can change the db `seed` file to add some reviews for testing purpos
 
 <img src="./images/8b1.png" width="400">
 
-## Challenge 8.c [10 Points]
+## Challenge 8.c [6 Points]
 
 Under this task you should complete the functionality for users to submit a review through the user interface.
 

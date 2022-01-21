@@ -12,16 +12,18 @@ Your task is to develop functionality so that users can sort the courses by popu
 
 <img src="./images/4a1.png" width="300">
 
-This functionality requires a  'sort by popularity' button in `all-courses.ejs` as shown above. (The button with id `sort-by-popularity` is currently hidden. Make sure you un hide it). Once you un hide this button, one additional test will succeed.
+This functionality is exposed through a  `Sort by Popularity` button in `all-courses.ejs` as shown above. The button with id `sort-by-popularity` is currently hidden. Make sure you un hide it. Once you un hide this button, one additional test will succeed.
 
 ## Challenge 4.b [6 Points]
 
 Now you should implement functionality so that when the Button is clicked, courses are sorted by popularity in the descending order as shown below.
 
-You will notice that when the button is clicked it sends the HTTP GET request `/course/sort?criteria=sort_popularity` to the `courseController.js`. You will require to change the sorting logic in the server scripts to accommodate sorting by popularity upon above GET request.
-
->>Note: In this implementation you must ensure you keep `/course/sort?criteria=sort_popularity` endpoint, but change the internal implementation accordingly.
-
-Once done, the system should be able to sort the courses by popularity as shown below.
-
 <img src="./images/4b1.png" width="400">
+
+You will notice that when the button is clicked it sends the HTTP GET request `/course/sort?criteria=sort_popularity` to the `courseController.js`.
+
+You will require to change the sorting logic in the server scripts to accommodate sorting by popularity upon above GET request.
+
+>Note: In this implementation you must ensure you do not modify `/course/sort?criteria=sort_popularity` endpoint, but change the internal implementation accordingly.
+
+>HINT: You should be write a SQL that joins `courses` and `userCourses` with some grouping to obtain the intended results.
