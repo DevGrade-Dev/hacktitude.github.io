@@ -2,11 +2,11 @@
 
 # Challenge 5
 
-Currently the system has 'Disenroll all courses' functionality on `Enrolled` courses page as shown below.
+Currently the system has `Disenroll All Courses` functionality on `Enrolled` courses page as shown below. When an user click this, he/she is disenrolled from **all** currently enrolled courses.
 
 <img src="./images/5_1.png" width="400">
 
-However, there is no way to disenroll an individual course. Your task is to implement this functionality.
+However, there is no way to disenroll a course individual basis. Your task is to implement this functionality.
 
 ## Challenge 5.a [1 Point]
 

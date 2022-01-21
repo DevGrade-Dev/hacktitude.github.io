@@ -10,13 +10,13 @@ This placeholder text is supposed to indicate the logged in user's status for th
 
 ## Challenge 6.a [6 Points]
 
-Your task is to make that status text to dynamically reflect the enrollment status. That is, instead of text `status`, you should display suggested texts for below scenarios.
+Your task is to make that status text to dynamically reflect the enrollment status. That is, instead of text `status`, you should display following suggested texts for below scenarios.
 
-* If the user is already enrolled to the course (`userCourses` table has an association record), text should be shown as: `Enrolled`
+* If the user is already enrolled to the course (i.e. `userCourses` table has an association record), text should be shown as: `Enrolled`
 * If the user has not enrolled to the course (`userCourses` table has no association record), text should be shown as: `Not Enrolled`
-* If the user has completed the course (`userCourses` table has an association record and `userCourses.score` is not `-1`), text should be shown as: `Completed`
+* If the user has completed the course (`userCourses` table has an association record and `userCourses.score` is greater than `-1`), text should be shown as: `Completed`
 
->>Note: You should be careful not to change the dynamic element id generation logic `id="course-status-<%= allcourses[i].id %>"` while you implement this feature.
+>>Note: You should be careful not to change the dynamic element id generation logic `id="course-status-<%= allcourses[i].id %>"` in `all-courses.ejs` while you implement this feature.
 
 Once correctly implemented, the solution should look as following.
 

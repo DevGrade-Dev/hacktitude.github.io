@@ -18,4 +18,6 @@ In `all courses` page you should add a tag 'POPULAR' on most popular courses as 
 * e.g. If there are 13 courses available in total, the 3 most popular courses should be tagged.
   * i.e. Round_Up_To_Nearest_Integer(13 * 0.2) = 3
 
+>>TIP: Please note that you should ROUND **UP** (Round Upwards) to the nearest integer.
+
 >> NOTE: The text 'POPULAR' should not appear in the HTML DOM for non popular courses. This means you have to render this 'POPULAR' HTML tag from EJS server code. Setting visibility true/false on client side JavaScript will not work.
