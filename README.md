@@ -80,11 +80,11 @@ Use below commands to run the tests. When you FIRST run, all the tests except `_
 
 As you complete the challenges, respective tests will pass one by one. When you complete all the tasks of a challenge, all tests of the respective challenge should pass. Every Hacktitude challenge has a test case which you can run to validate successful completion of the challenge.
 
-NOTE: Tests are not using the main.sqlite database. Every test creates an an isolated in-memory database.
+> NOTE: Tests are not using the main.sqlite database. Every test creates an an isolated in-memory database.
 
 ### Legitimacy of your solution
 
-Apart from the automated tests exposed to you, we will run additional tests on all awarding teams (the top 10) to verify that the team has not attempted to compromise the integrity of the automated tests. We will also conduct a manual developer review of the awarding teams' submissions. 
+Apart from the automated tests exposed to you, we will run additional tests on all awarding teams (the top 10) to verify that the team has not attempted to compromise the integrity of the automated tests. We will also conduct a manual developer review of the awarding teams' submissions.
 
 Any attempt to compromise the integrity of the contest will disqualify your team. Therefore please ensure your team avoid attempting:
 
@@ -123,11 +123,11 @@ If your sanity test pass and you are able to run the application, now you can pr
 * [Challenge 17](./challenge-17.md)
 * [Challenge 18](./challenge-18.md)
 
-Once you solve a particular challenge (or a part of the challenge), Git push the code to remote `master` branch in the repository. You can collaborate as a team on the upstream repository by using it as your trunk.
+>Once you solve a particular challenge (or a part of the challenge), Git push the code to remote `master` branch in the repository. You can collaborate as a team on the upstream repository by using it as your trunk.
 
-Every time you push the code to the upstream, automatic test cases are triggered to calculate your team's score. Therefore please ensure you only push stable code.
+>Every time you push the code to the upstream, automatic test cases are triggered to calculate your team's score. Therefore please ensure you only push stable code.
 
-Do not change any file in the `config` or `tests` folder of your code. These are used to correctly build your code on our servers.
+>Each test had a timeout of 30 secs. You need to ensure any of your implementations does not perform badly causing your tests to timeout. Test timeout due to bad performing code will be considered as a legitimate test failure.
 
 ## Getting support
 
