@@ -16,7 +16,7 @@ This functionality requires a  'sort by popularity' button in `all-courses.ejs` 
 
 ## Challenge 4.b [6 Points]
 
-Now you should no implement functionality so that when the Button is clicked, courses are sorted by popularity in the descending order as shown below.
+Now you should implement functionality so that when the Button is clicked, courses are sorted by popularity in the descending order as shown below.
 
 You will notice that when the button is clicked it sends the HTTP GET request `/course/sort?criteria=sort_popularity` to the `courseController.js`. You will require to change the sorting logic in the server scripts to accommodate sorting by popularity upon above GET request.
 
