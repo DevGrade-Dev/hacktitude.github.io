@@ -16,7 +16,7 @@ You may notice that `course-dashboard.ejs` containing a hidden button with id `d
 
 Unhiding the button will pass 1 related test case.
 
-## Challenge 5.b [3 Point]
+## Challenge 5.b [3 Points]
 
 When this Button is clicked, you may notice that it sends a HTTP GET request `/course/disenroll?courseId=1`. There is a skeleton (incomplete) method available to receive this request in `courseController.js`.
 
