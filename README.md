@@ -79,12 +79,35 @@ Use below commands to run the tests. When you FIRST run, all the tests except `_
 * To run all test:
   * `npm test`
 * To run a single test file of a challenge: e.g.
-  * `npm test challenge-0`
-  * `npm test challenge-1`
+  * `npm test challenge-0.test.js`
+  * `npm test challenge-01`
+  * `npm test challenge-02`
 
 As you complete the challenges, respective tests will pass one by one. When you complete all the tasks of a challenge, all tests of the respective challenge should pass. Every Hacktitude challenge has a test case which you can run to validate successful completion of the challenge.
 
 > NOTE: Tests are not using the main.sqlite database. Every test creates an an isolated in-memory database.
+
+### Add .gitignore
+
+You will note that the project code has no `.gitignore` file. Please add a `.gitignore` file with following content.
+
+```
+node_modules
+main.sqlite
+package-lock.json
+```
+
+>It is advised that one member of your team create the file, commit and push the .gitignore file to the remote repository with following commands.
+
+* `git add .`
+* `git commit -m "adding git ignore file`
+* `git push`
+
+Then other team members can pull the changes from the remote repository to receive the `.gitignore` file to their local machines.
+
+* `git pull`
+
+This is how you may use git to collaborate as a team in solving challenges.
 
 ### Legitimacy of your solution
 
@@ -121,14 +144,13 @@ Have fun!
 | [Challenge 15](./challenge-15.md)| [Challenge 16](./challenge-16.md)|[Challenge 17](./challenge-17.md)|
 | [Challenge 18](./challenge-18.md)|||
 
-
 >Once you solve a particular challenge (or a part of the challenge), `git push` the code to remote `master` branch in the repository. You can collaborate as a team on the upstream repository by using it as your trunk.
 
 >Every time you push the code to the upstream, automatic test cases are triggered to calculate your team's score. Therefore please ensure you only push stable code.
 
 >If scores are a tie, teams will be ordered by the `last push time`. Earlier you finish pushing code, better your rank will be. **Therefore please ensure NOT to push unnecessarily after you have completed the challenges.**
 
->Each test had a timeout of 30 secs. You need to ensure any of your implementations does not perform badly causing your tests to timeout. Test timeout due to bad performing code will be considered as a legitimate test failure.
+>Each test has a timeout of 30 secs. You need to ensure any of your code implementations does not perform badly causing your tests to timeout. Test timeout due to bad performing code will be considered as a legitimate test failure.
 
 ## Getting support
 

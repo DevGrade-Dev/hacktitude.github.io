@@ -23,7 +23,7 @@ When an user login to the system, you may notice that `Recently Added` courses a
 
 However having 5 courses on 2 columns does not look good visually. Your task is to show only 4 courses instead of 5 shown currently.
 
-Once this task is complete, one test in `challenge-0.test` should succeed. You can verify that by running the the command `npm test challenge-0`.
+Once this task is complete, one test in `challenge-0.test` should succeed. You can verify that by running the the command `npm test challenge-0.test.js`.
 
 ## Challenge 0.c
 
@@ -43,4 +43,4 @@ To implement this, you will have to add a new column named `duration` to the `co
 
 Once DB schema changes are done, you need to modify the repository, service and view layers in code as required to show course duration in the course details page (Course Dashboard). There is a span element with id `course-duration` in `course-dashboard.ejs`. You should show the course duration which you retrieve from the database within this span element.
 
-Once this task is complete, two tests in `challenge-0.test` should succeed. You can verify that by running the the command `npm test challenge-0`.
+Once this task is complete, two tests in `challenge-0.test` should succeed. You can verify that by running the the command `npm test challenge-0.test.js`.
