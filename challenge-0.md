@@ -33,9 +33,8 @@ In course details view you should show the learning duration of the course.
 
 To implement this, you will have to add a new column named `duration` to the `courses` database table. This column should be able to store a `string` value; for example `20 hours`, `3 weeks`, etc.
 
-* Since the database is auto generated, you will need to change the migration file `db/migratons/20211229064226_db_migrations.js` to add `duration` column to `courses`.
-  * After the change is done, delete the sqlite database file `main.sqlite`.
-  * Now run following command to recreate the development database `npm run migrate`
+* Since the database is auto generated, you will need to change the migration file `db/migratons/20211229064226_db_migrations.js` to add `duration` column to `courses` table. Now run following command to recreate the development database: 
+  * `npm run migrate`.
 
 >> (optional) A more accurate way to handle migrations is to create a new knex migration file, and do the schema change (column addition) within that new migration file.
 

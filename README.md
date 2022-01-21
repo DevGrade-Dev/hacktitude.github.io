@@ -43,8 +43,12 @@ Following commands will create a SQLite database called `main.sqlite` in your ro
 
 * to recreate the database
   * `npm run migrate`
-* to populate some data
+* to populate initial data
   * `npm run seed`
+
+>You may change `db/seed/**` files freely as you require. Once you change `seed` files run `npm run seed` to apply such to the database. Applied seed data will appear when you run the web application.
+
+>However, tf you do data base schema changes with `migrations` ensure it doesn't break your test cases or the application.
 
 ### Building and running the application
 

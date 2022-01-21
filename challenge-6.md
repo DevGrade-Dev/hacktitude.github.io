@@ -2,7 +2,7 @@
 
 # Challenge 6
 
-When you visit `All Courses` page you may notice that every course contains a dummy text `status`. 
+When you visit `All Courses` page you may notice that every course contains a dummy text `status`.
 
 <img src="./images/6a1.png" width="400">
 
