@@ -35,3 +35,11 @@ Implement the necessary logic to award `Beginner` grade based on the following c
 Implement the necessary logic to award `Expert` grade based on the following criteria.
 
 `Expert` -> If a user has an cumulative score of more than 90 (score in total for all completed courses), that user should be graded as an `Expert`.
+
+## IMPORTANT HINTS
+
+`score` column value in the `userCourses` table has following meanings:
+
+* Association  exists
+* `score = -1` - this means the user has not completes this course
+* `score > 0` - user 

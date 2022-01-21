@@ -22,15 +22,15 @@ Currently, the pin button is shown for all the courses in the `course-dashboard.
 
 When the pin icon is clicked, the `userCourses` table has to be updated by toggling the pinned state. 
 
-To implement this, you have to add a new column called `isPinned` in `userCourses` which should accept boolean (or 1 and 0) values.
+To implement this, you have to add a new column called `pinned` in `userCourses` which should accept boolean (or 1 and 0) values.
 
->>Note: Always use `migrate` files to do DB changes
+>>HINT: Always use `migrate` files to do DB changes. In `createTable()`statement of the migration file, you can create a boolean column with statement `table.boolean("pinned")`.
 
 ## Challenge 12.c [6 Points]
 
 <img src="./images/12c1.png" width="400">
 
-On course dashboard, when the pin icon is clicked, `isPinned` should be toggled in the database. Use `/course/pin` route in `courseController.js` to implement this and write the necessary logic to accomplish this.
+On course dashboard, when the pin icon is clicked, `pinned` should be toggled in the database. Use `/course/pin` route in `courseController.js` to implement this and write the necessary logic to accomplish this.
 
 ## Challenge 12.d [1 Point]
 
