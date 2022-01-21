@@ -105,27 +105,22 @@ This step is not mandatory to work on the Hacktitude challenges, but it may impr
 
 ## Solving the challenges
 
-If your sanity test pass and you are able to run the application, now you can proceed to the challenges. All the Hacktitude challenges are documented in an own file. Please visit the links below, read carefully and get started solving them. Have fun!
+If your sanity test pass and you are able to run the application, now you can proceed to the challenges. All the Hacktitude challenges are documented in an own file. Please visit the links below, read carefully and get started solving them.
 
-* [Challenge 0](./challenge-0.md)
-* [Challenge 1](./challenge-1.md)
-* [Challenge 2](./challenge-2.md)
-* [Challenge 3](./challenge-3.md)
-* [Challenge 4](./challenge-4.md)
-* [Challenge 5](./challenge-5.md)
-* [Challenge 6](./challenge-6.md)
-* [Challenge 7](./challenge-7.md)
-* [Challenge 8](./challenge-8.md)
-* [Challenge 9](./challenge-9.md)
-* [Challenge 10](./challenge-10.md)
-* [Challenge 11](./challenge-11.md)
-* [Challenge 12](./challenge-12.md)
-* [Challenge 13](./challenge-13.md)
-* [Challenge 14](./challenge-14.md)
-* [Challenge 15](./challenge-15.md)
-* [Challenge 16](./challenge-16.md)
-* [Challenge 17](./challenge-17.md)
-* [Challenge 18](./challenge-18.md)
+Although the challenges are independent from one another, it will be easier for you to solve them somewhat sequentially to understand the challenges better.
+
+Have fun!
+
+|       |  |  |
+| ----------- | ----------- |----------- |
+| [Challenge 0](./challenge-0.md)| [Challenge 1](./challenge-1.md)|[Challenge 2](./challenge-2.md)|
+| [Challenge 3](./challenge-3.md)| [Challenge 4](./challenge-4.md)|[Challenge 5](./challenge-5.md)|
+| [Challenge 6](./challenge-6.md)| [Challenge 7](./challenge-7.md)|[Challenge 8](./challenge-8.md)|
+| [Challenge 9](./challenge-9.md)| [Challenge 10](./challenge-10.md)|[Challenge 11](./challenge-11.md)|
+| [Challenge 12](./challenge-12.md)| [Challenge 13](./challenge-13.md)|[Challenge 14](./challenge-14.md)|
+| [Challenge 15](./challenge-15.md)| [Challenge 16](./challenge-16.md)|[Challenge 17](./challenge-17.md)|
+| [Challenge 18](./challenge-18.md)|||
+
 
 >Once you solve a particular challenge (or a part of the challenge), `git push` the code to remote `master` branch in the repository. You can collaborate as a team on the upstream repository by using it as your trunk.
 
