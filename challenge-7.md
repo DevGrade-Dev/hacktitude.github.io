@@ -27,6 +27,8 @@ One additional test will pass when you complete this task.
 
 You may notice that the 5 most popular courses shown in this section are currently hardcoded inside the div with id `popular-courses`.
 
-Your task is to correctly implement this by fetching the 5 most popular courses from the database and displaying as shown below.
+Your task is to correctly implement this by fetching 5 most popular courses from the database and displaying as shown below.
 
 <img src="./images/7b1.png " width="400">
+
+> Note: If a course has no enrollments, it should not appear in the popular list.
