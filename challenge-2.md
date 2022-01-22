@@ -42,4 +42,4 @@ Column values in the `userCourses` table has following meanings:
 
 * An association record exists in the `userCourses` table means the user is enrolled to this course.
 * Column value `score = -1` - this means the user has enrolled but not completed this course. Score not valid and should not be taken for any calculations.
-* Column value `score > 0` - user has completed the course and the score is valid.
+* Column value `score >= 0` - user has completed the course and the score is valid.
