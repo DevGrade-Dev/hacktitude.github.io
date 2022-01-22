@@ -146,9 +146,9 @@ Have fun!
 
 >Once you solve a particular challenge (or a part of the challenge), `git push` the code to remote `master` branch in the repository. You can collaborate as a team on the upstream repository by using it as your trunk.
 
->Every time you push the code to the upstream, automatic test cases are triggered to calculate your team's score. Therefore please ensure you only push stable code.
+>Every time you push the code to the upstream, automatic test cases are triggered to calculate your team's score. Therefore please ensure you only push stable code. **Your team's last pushed code will be considered for your scores.**
 
->If scores are a tie, teams will be ordered by the `last push time`. Earlier you finish pushing code, better your rank will be. **Therefore please ensure NOT to push unnecessarily after you have completed the challenges.**
+>If scores are a tie, teams will be ordered by the `last push time`. Earlier you push the final code, better your rank will be. **Therefore please ensure NOT to push unnecessarily after you have completed the challenges.**
 
 >Each test has a timeout of 30 secs. You need to ensure any of your code implementations does not perform badly causing your tests to timeout. Test timeout due to bad performing code will be considered as a legitimate test failure.
 
